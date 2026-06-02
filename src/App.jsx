@@ -9,7 +9,7 @@ const App = () => {
       <Navbar />
 
       {/* Main layout switcher */}
-      <main className="min-h-screen bg-slate-950">
+      <main className="min-h-screen bg-slate-950 text-white">
    <Home/>
       </main>
     </>
