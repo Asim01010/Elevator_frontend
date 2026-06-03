@@ -112,7 +112,7 @@ const Process = () => {
   };
 
   return (
-    <div className="w-full min-h-screen py-12 px-6 md:px-12" style={{ backgroundColor: '#F7F4ED' }}>
+    <div className="w-full min-h-screen py-6  " style={{ backgroundColor: '#F7F4ED' }}>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-7xl mx-auto">
         
         {/* Left Side - Grid Cols 8 with two scrolling rows */}

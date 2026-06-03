@@ -80,7 +80,7 @@ const Overview = () => {
   };
 
   return (
-    <div className="w-full py-6 px-4 overflow-hidden" style={{ backgroundColor: '#F7F4ED' }}>
+    <div className="w-full py-6  overflow-hidden" style={{ backgroundColor: '#F7F4ED' }}>
       {/* Scrolling Bar - Left to Right with infinite loop */}
       <div 
         ref={scrollContainerRef}
@@ -101,7 +101,7 @@ const Overview = () => {
                 key={`${company.id}-${index}`}
                 className="flex-shrink-0 group cursor-pointer transition-all duration-300 hover:scale-105"
               >
-                <div className="flex gap-2.5 items-center px-6 py-4 min-w-[200px] border-r border-gray-300" style={{ backgroundColor: '#F7F4ED' }}>
+                <div className="flex gap-2.5 items-center  min-w-[200px] border-r border-gray-300" style={{ backgroundColor: '#F7F4ED' }}>
                   {/* Icon with unified color #A1917D */}
                   <div className="flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
                     <IconComponent className="text-4xl md:text-5xl" style={{ color: '#A1917D' }} />
