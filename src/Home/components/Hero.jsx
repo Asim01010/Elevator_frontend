@@ -50,7 +50,7 @@ export default function Hero() {
         </div>
 
         {/* Hero Studio Panel - Bottom on mobile, Right on desktop */}
-        <div className="hero-panel order-3 w-full md:w-[80%] lg:w-[25%] lg:order-3 flex items-center justify-center lg:justify-end">
+        <div className="hero-panel order-3 w-full lg:w-[25%] lg:order-3 flex items-center justify-center lg:justify-end">
           <HeroStudioPanel 
             currentImageIndex={currentImageIndex} 
             totalImages={galleryImages.length} 
